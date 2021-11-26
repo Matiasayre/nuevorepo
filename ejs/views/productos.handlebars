@@ -1,0 +1,11 @@
+<input type="button" onclick="location.href='/'" value="Registrar un producto">
+
+<div class="contenedorProductos">
+    {{#each productos}}
+    <div class="productos">
+        <p>{{this.title}}</p>
+        <p>{{this.precio}}</p>
+        <img src={{this.thumbnail}}>
+    </div>
+    {{/each}}
+</div>

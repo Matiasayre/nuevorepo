@@ -1,0 +1,17 @@
+- let exist=productos.length>0?true:false;
+html 
+    head
+        title="tienda de productos" 
+    body
+        input(type="button" onclick="location.href='/'" value="registrar un producto")
+        h1="lista de productos"
+        if exist   
+            ul
+                each p  in productos     
+                    li
+                        div 
+                            p="title: "+p.title 
+                            p="precio: "+p.precio
+                            img(src=p.thumbnail) 
+        else
+            p="no hay productos"

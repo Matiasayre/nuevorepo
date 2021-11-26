@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "precio": null
+  },
+  {
+    "id": 2,
+    "precio": null
+  },
+  {
+    "id": 3,
+    "uid": 1,
+    "pid": 1,
+    "precio": null
+  },
+  {
+    "id": 4,
+    "precio": null
+  },
+  {
+    "id": 5,
+    "title": "leche",
+    "precio": 123,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 6,
+    "title": "bolita",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 7,
+    "title": "zahanoria",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 8,
+    "title": "zahanoria",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 9,
+    "title": "zahanoria",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  }
+]

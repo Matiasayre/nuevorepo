@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "precio": null
+  },
+  {
+    "id": 2,
+    "precio": null
+  },
+  {
+    "id": 3,
+    "uid": 1,
+    "pid": 1,
+    "precio": null
+  },
+  {
+    "id": 4,
+    "precio": null
+  },
+  {
+    "id": 5,
+    "title": "leche",
+    "precio": 123,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 6,
+    "title": "bolita",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 7,
+    "title": "zahanoria",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 8,
+    "title": "zahanoria",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 9,
+    "title": "zahanoria",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 10,
+    "title": "zahanoria",
+    "precio": 9,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 11,
+    "title": "zahanoria",
+    "precio": 3,
+    "thumbnail": ""
+  },
+  {
+    "id": 12,
+    "title": "zahanoria",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 13,
+    "title": "zahanoria",
+    "precio": 3,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 14,
+    "title": "zahanoria",
+    "precio": 111,
+    "thumbnail": ""
+  },
+  {
+    "id": 15,
+    "title": "zahanoria",
+    "precio": 111,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  },
+  {
+    "id": 16,
+    "title": "manzana",
+    "precio": 123,
+    "thumbnail": "D:\\matias desarollo web\\proyectolindo\\ideaayre\\imagenes"
+  }
+]

@@ -1,20 +1,24 @@
-const express = require('express');
-const cors = require("cors")
-const carga = require("./services/carga")
-const Contenedor = require('./classes/Contenedor');
+import express from 'express';
+import {engine} from 'express-handlebars';
+import cors from 'cors';
+import carga from "./services/carga.js";
+import Contenedor from './classes/Contenedor.js';
 const app = express();
 const server = app.listen(8080,()=>{
     console.log("server listening on port 8080")
 })
 const contenedor = new Contenedor();
-const productosRouter = require("./routes/productos");
+import productosRouter from "./routes/productos.js";
+app.engine('handlebars',engine())
+app.set('views','./views')
+app.set('view engine','handlebars')
 
 app.use(carga.single("image"));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 app.use(express.static("public"));
 app.use(cors());
-app.use('/imagenes', express.static(__dirname + '/public'));
+// app.use('/imagenes', express.static(__dirname + '/public'));
 
 app.use((err,req,res,next)=>{
     console.log(err.stack);
@@ -31,4 +35,13 @@ if(!file||file.length===0){
   res.status(500).send({message:"no se subio el archivo"})
 }
 res.send(file);
+})
+app.get('/view/productos',(req,res)=>{
+  contenedor.getAllProductos().then(result=>{
+      let info = result.payload;
+      let preparedObject ={
+          productos : info
+      }
+      res.render('productos',preparedObject)
+  })
 })

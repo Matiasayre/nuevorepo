@@ -1,8 +1,8 @@
-const express = require("express");
+import express from"express";
 const router = express.Router();
-const Contenedor = require("../classes/Contenedor");
+import Contenedor from "../classes/Contenedor.js";
 const contenedor = new Contenedor();
-const carga = require("../services/carga")
+import carga from "../services/carga.js";
 
 router.get("/",(req,res)=>{
     contenedor.getAllProductos().then(result=>{
@@ -38,4 +38,4 @@ router.delete("/:pid",(req,res)=>{
     })
 })
 
-module.exports = router;
+export default router;
